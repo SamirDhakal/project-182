@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, SafeAreaView, Platform, Image, ScrollView, Touc
 import { Camera } from "expo-camera";
 import { StatusBar } from "expo-status-bar";
 import * as FaceDetector from "expo-face-detector";
+import Filter1 from "./filter1";
 
 export default class Main extends Component {
     constructor(props) {
